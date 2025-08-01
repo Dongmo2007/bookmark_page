@@ -130,3 +130,12 @@ hamb.addEventListener("click", function () {
   }
   isOpen = !isOpen;
 });
+
+navlist.addEventListener("click", function () {
+  offcanvas.classList.remove("show");
+  document.body.className = "";
+  bar1.style.transform = "";
+  bar2.style.transform = "";
+  bar2.style.marginTop = "";
+  isOpen = !isOpen;
+});
